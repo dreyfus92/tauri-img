@@ -10,7 +10,9 @@
     "tauri": "tauri"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.0.8",
     "@tauri-apps/api": "^1.2.0",
+    "class-variance-authority": "^0.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { invoke } from '@tauri-apps/api/tauri';
-import { Loader } from './components/Loader';
 
 function App() {
   const [greetMsg, setGreetMsg] = useState('');
