@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { invoke } from '@tauri-apps/api/tauri';
-import { ToggleButton } from './components/ToggleButton';
+import { Loader } from './components/Loader';
 
 function App() {
   const [greetMsg, setGreetMsg] = useState('');
@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center my-10">
       <h1>Welcome to Tauri Image Converter</h1>
       <p>Click on the Tauri, Vite, and React logos to learn more.</p>
 
